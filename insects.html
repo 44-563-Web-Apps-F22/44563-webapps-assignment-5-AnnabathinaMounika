@@ -1,64 +1,233 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>Insects html</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script> 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"  integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
-  
- 
-</head>
-<body>
-    <h2>Insects by Mounika Annabathina</h2>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-2">
-                A
-            </div>
-            <div class="col-sm-2">
-               n
-            </div>
-            <div class="col-sm-2">
-               b 
-            </div>
-            <div class="col-sm-2">
-                t
-            </div>
-            <div class="col-sm-2">
-                h
-            </div>
-            <div class="col-sm-2">
-                i
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md">
-              Ant
-            </div>
-            <div class="col-md">
-              nightcrawler
-            </div>
-            <div class="col-md">
-              bees
-            </div>
-            <div class="col-md">
-              tick
-            </div>
-            <div class="col-md">
-              honeybee
-            </div>
-            <div class="col-md">
-              Isoptera
-            </div>
-        </div>
-    </div> <br>
-    <p>
-      When we open this page using a browser and reduce the size slowly,the second div with class row ,class col-md  which contains the name of each insect in those divs this row breaks first. 
-      The col-md will break first because the breaking point of col-md is greaterthan or equalto 768  and the first div with class row class col-sm  will break second because the breaking point of col-sm is greaterthan or equalto 576.
-    </p>
 
-</body>
-</html>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+    crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <a class="navbar-brand" href="insects.html">Interesting Insects</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon">
+      </span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-link">
+          <a href="basic.html" class="nav-link active" aria-current="page">Basic</a>
+        </li>
+        <li class="nav-link">
+          <a href="advanced.html" class="nav-link active" aria-current="page">Advanced</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <h2>Insects by Mounika Annabathina</h2>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-2">
+        A
+      </div>
+      <div class="col-sm-2">
+        n
+      </div>
+      <div class="col-sm-2">
+        b
+      </div>
+      <div class="col-sm-2">
+        t
+      </div>
+      <div class="col-sm-2">
+        h
+      </div>
+      <div class="col-sm-2">
+        i
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md">
+        Ant
+      </div>
+      <div class="col-md">
+        nightcrawler
+      </div>
+      <div class="col-md">
+        bees
+      </div>
+      <div class="col-md">
+        tick
+      </div>
+      <div class="col-md">
+        honeybee
+      </div>
+      <div class="col-md">
+        Isoptera
+      </div>
+    </div>
+  </div> <br>
+  <p>
+    When we open this page using a browser and reduce the size slowly,the second div with class row ,class col-md which
+    contains the name of each insect in those divs this row breaks first.
+    The col-md will break first because the breaking point of col-md is greaterthan or equalto 768 and the first div
+    with class row class col-sm will break second because the breaking point of col-sm is greaterthan or equalto 576.
+  </p>
+  <div class="container">
+    <img src="Ant.jpg" class="img-fluid" alt="ant image" height="400" width="400">
+    <img src="bee.jpg" class="img-fluid" alt="bee image" height="400" width="400">
+    <img src="tick.jpg" class="img-fluid" alt="tick image" height="400" width="400">
+  </div>
+  <br>
+  <div class="container">
+    <img src="Ant.jpg" class="img-thumbnail" alt="ant image" height="400" width="400">
+    <img src="bee.jpg" class="img-thumbnail" alt="bee image" height="400" width="400">
+    <img src="tick.jpg" class="img-thumbnail" alt="tick image" height="400" width="400">
+  </div>
+  <table class="table table-bordered table-hover">
+    <caption style="caption-side: top;">
+      Table for insects details
+    </caption>
+    <tr style="text-align: centre;color:rgb(red, green, blue);">
+      <th scope="col"> Letter</th>
+      <th scope="col">Insect</th>
+      <th scope="col">City</th>
+      <th scope="col">River</th>
+    </tr>
+    <tr style="text-align: center;color:blueviolet">
+      <td>A</td>
+      <td>Ant</td>
+      <td>Atlanta</td>
+      <td>Agawam River</td>
+    </tr>
+    <tr style="text-align: center;color:brown">
+      <td>N</td>
+      <td>Nightcrawler</td>
+      <td>Nashville</td>
+      <td>Naknek River</td>
+    </tr>
+    <tr style="text-align: center;color:royalblue">
+      <td>B</td>
+      <td>Bees</td>
+      <td>Baltimore</td>
+      <td>Beas River</td>
+    </tr>
+    <tr style="text-align: center;color:darkgreen">
+      <td>T</td>
+      <td>Tick</td>
+      <td>Tampa</td>
+      <td>Taku River</td>
+    </tr>
+    <tr style="text-align: center;color:deeppink">
+      <td>H</td>
+      <td>Honeybee</td>
+      <td>Houston</td>
+      <td>Halifax River</td>
+    </tr>
+    <tr style="text-align: center;color:darkmagenta">
+      <td>I</td>
+      <td>Isoptera</td>
+      <td>Irvine</td>
+      <td>Illinois River</td>
+    </tr>
+
+  </table> <br>
+
+  <div class="btn-toolbar">
+    <button type="button" class="btn btn-success">A</button>
+    <button type="button" class="btn btn-success">N</button>
+    <button type="button" class="btn btn-success">B</button>
+    <button type="button" class="btn btn-warning">T</button>
+    <button type="button" class="btn btn-warning">H</button>
+    <button type="button" class="btn btn-danger">I</button>
+  </div> <br>
+  <div class="dropdown">
+    <button type="button" class="bn bn-primary dropdown-toggle" data-bs-toggle="dropdown"> Dropdown Button</button>
+    <div class="dropdown-menu">
+      <a href="basic.html" class="dropdown-item">Lets go to basic html</a>
+      <a href="advanced.html" class="dropdown-item">Lets go to Advanced html</a>
+    </div>
+  </div> <br>
+  <form>
+    <div class="form-group">
+      <label for="EmailLogin">email address</label>
+      <input type="email" class="form-control" id="Email" aria-describedby="emailaddress"
+        placeholder="Enter your emailaddress">
+      <small id="emailaddress" class="form-text text-muted">We willnot share your emailaddress with anyone.</small>
+    </div>
+    <div class="form-group">
+      <label for="Password">Insect</label>
+      <input type="text" class="form-control" id="Password" placeholder="Enter your insect">
+    </div>
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="checkin">
+      <label class="form-check-label" for="checkin">Sign up for newsletter?</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form> <br> <br> <br>
+  <div class="container">
+    <div class="row">
+      <div class="col-md">
+        <div class="card" style="width: 20rem;">
+          <img src="Ant.jpg" class="card-img-top" alt="Antimage">
+          <div class="card-body">
+            <h4 class="card-title">Ant</h4>
+            <p class="card-text">
+              Ants have large heads with compound eyes,elbowed antennae and powerful jaws.
+              Most Ants are either red or black in color.
+            </p>
+            <a href="https://en.wikipedia.org/wiki/Ant" class="btn btn-primary">Learn more about Ants</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md">
+        <div class="card" style="width: 20rem;">
+          <img src="bee.jpg" class="card-img-top" alt="beeimage">
+          <div class="card-body">
+            <h4 class="card-title">Bee</h4>
+            <p class="card-text">
+              Bees are winged insects closely related to Wasps and Ants.
+              Bees feed on nectar and pollen.
+            </p>
+            <a href="https://en.wikipedia.org/wiki/Bee" class="btn btn-primary">Learn more about Bees</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md">
+        <div class="card" style="width: 20rem;">
+          <img src="tick.jpg" class="card-img-top" alt="tickimage">
+          <div class="card-body">
+            <h4 class="card-title">Tick</h4>
+            <p class="card-text">
+               Ticks are parasitic arachnids that are part of the mite superorder parasitiformes.
+               Adult ticks are approximately 3 to 5mm in length depending on age,sex,species.
+            </p>
+            <a href="https://en.wikipedia.org/wiki/Tick" class="btn btn-primary">Learn more about Tick</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </body>
+  </html>
